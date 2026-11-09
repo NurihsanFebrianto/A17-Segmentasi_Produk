@@ -30,12 +30,31 @@ Proyek ini menerapkan pendekatan *classical unsupervised machine learning* pada 
 ```text
 .
 ├── assets/
-│   ├── rfm_distribution.png       # Distribusi RFM skala asli & transformasi log1p (Gambar 2)
-│   ├── elbow_silhouette.png       # Evaluasi penentuan nilai K optimal (Gambar 5)
-│   └── pca_clusters.png           # Proyeksi 2D PCA & t-SNE hasil klusterisasi K=4 (Gambar 13)
+│   ├── Output/
+│   │   ├── Gambar 1.png
+│   │   ├── Gambar 2.png
+│   │   ├── Gambar 3.png
+│   │   ├── Gambar 4.png
+│   │   ├── Gambar 5.png
+│   │   ├── Gambar 6.png
+│   │   ├── Gambar 7.png
+│   │   ├── Gambar 8.png
+│   │   ├── Gambar 9.png
+│   │   ├── Gambar 10.png
+│   │   ├── Gambar 11.png
+│   │   ├── Gambar 12.png
+│   │   ├── Gambar 13.png
+│   │   └── Gambar14.png             # Tangkapan layar / visualisasi hasil keluaran analisis
+│   ├── elbow_silhouette.jpeg         # Evaluasi penentuan nilai K optimal (Gambar 5)
+│   ├── pca_clusters.jpeg             # Proyeksi 2D PCA & t-SNE hasil klusterisasi K=4 (Gambar 13)
+│   └── rfm_distribution.jpeg         # Distribusi RFM skala asli & transformasi log1p (Gambar 2)
+├── aterfak pendukung/
+│   └── Laporan_Milestone_A-17_Segmentasi_Produk.pdf # Berkas laporan milisik pendukung proyek
 ├── data/
-│   └── online_retail_II.csv        # Berkas dataset transaksi ritel
+│   └── online_retail_II.xlsx         # Berkas dataset utama transaksi ritel (format Excel)
+├── Laporan/
+│   └── LAPORAN_UTS_A17_SEGMENTASI PRODUK.pdf        # Dokumen laporan resmi UTS segmentasi produk
 ├── notebooks/
-│   └── UTS_RFM_Customer_Segmentation.ipynb  # Notebook Colab / Jupyter eksperimen utama
-├── README.md                       # Dokumentasi utama repositori
-└── requirements.txt                # Dependensi pustaka Python
+│   └── ML_Segmentation_Produk_revisi_UTS (1).ipynb  # Notebook Colab / Jupyter eksperimen utama
+├── README.md                         # Dokumentasi utama repositori
+└── requirements.txt                  # Dependensi pustaka Python
